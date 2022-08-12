@@ -1,0 +1,26 @@
+{
+  "name": "apptermial-clima",
+  "version": "1.0.0",
+  "description": "App de terminal [Curso Node]",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeBAou/AppTerminal-Clima.git"
+  },
+  "author": "CodeBAou",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CodeBAou/AppTerminal-Clima/issues"
+  },
+  "homepage": "https://github.com/CodeBAou/AppTerminal-Clima#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "colors": "^1.4.0",
+    "dotenv": "^16.0.1",
+    "inquirer": "^8.0.0"
+  }
+}
