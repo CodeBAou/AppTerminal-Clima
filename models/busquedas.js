@@ -35,7 +35,7 @@ class Busquedas{
 
     get paramsOpenweathermap(){
         return{
-            appid:'0456319b5c72a92886f7b8a52de3bbf1',
+            appid: process.env.OPEWATHER_KEY,
             units:'metric',
             lang:'es'
         }
